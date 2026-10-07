@@ -1,0 +1,60 @@
+{
+  "eyebrow": "Community kiosk",
+  "title": "KAABIL *Station*",
+  "lede": "For community centres, schools, NGOs and skill centres. Anyone can walk up, talk to Saathi, build a skill profile and print a parchi — no smartphone needed.",
+  "pickStation": "Choose a station",
+  "pickStationLede": "Select where this device is placed. Slips printed here will carry the station name.",
+  "noStations": "No active stations yet. An administrator can add one.",
+  "printer": "Printer available",
+  "noPrinter": "No printer — save as PDF",
+  "hours": "Open {hours}",
+  "assistedLabel": "A centre helper is assisting",
+  "assistedHint": "Slips will be marked “Assisted by Station helper”.",
+  "start": "Start Station mode",
+  "starting": "Starting…",
+  "how": {
+    "title": "How a *visit* works",
+    "steps": [
+      "Select a language",
+      "Talk to KAABIL Saathi",
+      "Discover your abilities",
+      "Create a skill profile",
+      "Learn about training",
+      "Search verified jobs",
+      "Print your KAABIL Parchi",
+      "Print a Job Parchi"
+    ]
+  },
+  "privacy": "Each visitor's session is wiped automatically after a period of no activity, so the next person starts fresh.",
+  "kiosk": {
+    "step": "Step {n} of {total}",
+    "helper": "Call centre helper",
+    "helperCalled": "Helper called",
+    "helperPanelTitle": "A helper has been *notified*",
+    "helperPanelBody": "Please wait here. A centre worker will come to help you shortly.",
+    "helperPilot": "Pilot: please also wave to the desk — automatic alerts are still being set up.",
+    "helperDismiss": "Okay",
+    "endSession": "End session",
+    "endConfirmTitle": "End this visit?",
+    "endConfirmBody": "Your details will be removed from this machine. Print your parchi first if you need it.",
+    "endConfirm": "Yes, end and start fresh",
+    "ended": "Session ended. Ready for the next person.",
+    "exit": "Exit Station mode",
+    "pinTitle": "Helper PIN",
+    "pinHint": "Enter the 4-digit helper PIN to exit Station mode.",
+    "pinWrong": "That PIN is not correct.",
+    "pinLabel": "PIN",
+    "exited": "Station mode is off.",
+    "idleTitle": "Are you *still here*?",
+    "idleBody": "For your privacy, this session will reset in {seconds} seconds.",
+    "idleStay": "I'm still here",
+    "idleReset": "Reset now",
+    "stationLabel": "Station",
+    "progressLabel": "Visit progress",
+    "active": "Station mode is on"
+  },
+  "offline": {
+    "title": "You're *offline*",
+    "lessons": "Open saved lessons"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "greeting": "Namaste",
+  "greetingName": "Namaste, {name}",
+  "question": "What would you like to *do* today?",
+  "tiles": {
+    "discover": { "label": "Discover my skills", "sub": "Find what you already do well" },
+    "learn": { "label": "Learn a skill", "sub": "Short lessons, in your language" },
+    "jobs": { "label": "Find work", "sub": "Verified jobs and training" },
+    "parchi": { "label": "My KAABIL Parchi", "sub": "A printable skill card" }
+  },
+  "saathiCta": "Talk to KAABIL Saathi",
+  "saathiHint": "Just speak — KAABIL Saathi will help you.",
+  "nearby": "What work is *near me*?",
+  "nearbySub": "Opportunities around {town}",
+  "nearbyNoTown": "Choose your town to see nearby work",
+  "nextStep": "Your next step",
+  "next": {
+    "discover": "Start with a 3-minute skill discovery.",
+    "learn": "Continue learning {skill}.",
+    "jobs": "See verified jobs that match your skills.",
+    "parchi": "Your profile is ready. Print your KAABIL Parchi."
+  },
+  "closing": {
+    "line1": "Every person has *a talent*.",
+    "line2": "KAABIL tries to recognise it, refine it, and carry it to the right opportunity.",
+    "tagline": "हर हुनर को मिले सही दिशा।",
+    "motto": "Discover. Learn. Connect.",
+    "flow": "Ability → Skill → Opportunity"
+  }
+}

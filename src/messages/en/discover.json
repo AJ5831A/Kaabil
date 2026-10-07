@@ -1,0 +1,103 @@
+{
+  "eyebrow": "Discover",
+  "title": "Find what you *already* do well",
+  "lede": "A few short questions and playful activities. No exams, no certificates — just you.",
+  "start": "Let's begin",
+  "minutes": "About 4 minutes",
+  "stepOf": "Step {n} of {total}",
+  "redo": "Do it again",
+  "existing": "You already have a skill profile.",
+  "existingSub": "You can view it, or discover again to update it.",
+  "viewProfile": "View my profile",
+  "interests": {
+    "title": "What kind of work do you *enjoy*?",
+    "hint": "Choose one or more. There are no wrong answers.",
+    "need": "Choose at least one to continue"
+  },
+  "attention": {
+    "title": "Find the *matching* pictures",
+    "hint": "Tap every picture that looks exactly like the one at the top.",
+    "target": "Find this",
+    "found": "{n} of {total} found",
+    "done": "Well spotted!",
+    "skipNote": "You can skip any activity."
+  },
+  "sequence": {
+    "title": "Put the steps in *order*",
+    "hint": "How do you make a cup of tea? Tap the steps in the right order.",
+    "steps": ["Pour water into the pan and heat it", "Add tea leaves and let it boil", "Add milk and sugar, boil again", "Strain the tea into a cup"],
+    "yourOrder": "Your order",
+    "tryAgain": "Not quite — that step comes later. Try another.",
+    "done": "Perfect order!",
+    "reset": "Start again"
+  },
+  "coordination": {
+    "title": "Tap at the *right moment*",
+    "hint": "The ring will shrink. Tap the big button when the ring touches the gold circle.",
+    "tap": "Tap now",
+    "round": "Round {n} of {total}",
+    "great": "Great timing!",
+    "close": "Close!",
+    "early": "A little early",
+    "late": "A little late",
+    "begin": "Start",
+    "done": "All rounds done"
+  },
+  "scenarios": {
+    "title": "What would *you* do?",
+    "hint": "Choose the answer that feels most like you.",
+    "items": [
+      {
+        "q": "A customer at a shop is upset because their order is late.",
+        "options": ["Listen calmly and say sorry, then find out when it will come", "Ask the owner to come and handle it", "Tell them it is not my fault"]
+      },
+      {
+        "q": "The fan at home suddenly stopped working.",
+        "options": ["Check the switch and plug first, then look for the problem", "Wait for someone else to fix it", "Buy a new fan"]
+      },
+      {
+        "q": "A shelf in a shop is messy and items are mixed up.",
+        "options": ["Sort items by type and put labels", "Make it look nice with colours and a pattern", "Leave it, customers will find things"]
+      }
+    ]
+  },
+  "experience": {
+    "title": "What have you *done* before?",
+    "hint": "Paid or unpaid — at home, on a farm, in a shop. It all counts.",
+    "items": {
+      "home_cooking": "Cooking at home",
+      "stitching": "Stitching for family",
+      "farm": "Farm or garden work",
+      "shop": "Helping in a shop",
+      "cleaning": "Cleaning work",
+      "repair": "Fixing things",
+      "care": "Caring for children or elders",
+      "craft": "Craft or embroidery",
+      "packing": "Packing or sorting",
+      "none": "Nothing yet"
+    },
+    "years": "How long, in total?",
+    "yearOptions": { "0": "Just started", "1": "About a year", "3": "1–3 years", "5": "More than 3 years" }
+  },
+  "reveal": {
+    "eyebrow": "Your KAABIL Skill Profile",
+    "title": "Here is what we *noticed*",
+    "strengths": "Your strengths",
+    "skills": "Skills you have",
+    "interests": "Work you enjoy",
+    "saved": "Saved to your profile",
+    "badge": "Skill profile complete",
+    "next": "What would you like to do next?",
+    "learn": "Learn a skill",
+    "learnSub": "Lessons picked for you",
+    "jobs": "See matching work",
+    "jobsSub": "Verified opportunities",
+    "parchi": "Print my Parchi",
+    "parchiSub": "A paper skill card",
+    "saathi": "Ask Saathi",
+    "saathiSub": "Talk about your options",
+    "saathiPrompt": "I just finished my skill profile. What should I do next?"
+  },
+  "activityDone": "Done",
+  "skipActivity": "Skip this"
+}

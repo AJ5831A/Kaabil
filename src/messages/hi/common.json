@@ -1,0 +1,158 @@
+{
+  "brand": {
+    "name": "KAABIL",
+    "tagline": "क्षमता को बनाएँ *अवसर*",
+    "taglineLocal": "हर हुनर को मिले सही दिशा",
+    "saathi": "KAABIL Saathi"
+  },
+  "nav": {
+    "home": "होम",
+    "discover": "पहचानें",
+    "learn": "सीखें",
+    "jobs": "नौकरी",
+    "parchi": "पर्ची",
+    "profile": "प्रोफ़ाइल",
+    "saathi": "Saathi",
+    "settings": "सेटिंग्स",
+    "station": "स्टेशन मोड",
+    "admin": "एडमिन",
+    "language": "भाषा",
+    "simpleMode": "आसान मोड",
+    "skipToContent": "सीधे मुख्य भाग पर जाएँ",
+    "back": "पीछे",
+    "menu": "मेन्यू"
+  },
+  "journey": {
+    "discover": "पहचानें",
+    "learn": "सीखें",
+    "connect": "जुड़ें",
+    "label": "आपका सफ़र"
+  },
+  "actions": {
+    "continue": "आगे बढ़ें",
+    "next": "अगला",
+    "back": "पीछे",
+    "done": "हो गया",
+    "save": "सेव करें",
+    "cancel": "रद्द करें",
+    "close": "बंद करें",
+    "skip": "छोड़ें",
+    "retry": "फिर से कोशिश करें",
+    "print": "प्रिंट करें",
+    "viewAll": "सब देखें",
+    "start": "शुरू करें",
+    "change": "बदलें",
+    "remove": "हटाएँ",
+    "submit": "भेजें",
+    "edit": "बदलाव करें",
+    "yes": "हाँ",
+    "no": "नहीं"
+  },
+  "voice": {
+    "listen": "सुनें",
+    "stop": "रोकें",
+    "listenScreen": "यह स्क्रीन सुनें",
+    "speak": "बोलें",
+    "type": "लिखें",
+    "missingVoice": "आपके फ़ोन में {language} की आवाज़ नहीं है। मैं सबसे मिलती-जुलती आवाज़ में पढ़ूँगा।",
+    "micDenied": "माइक की अनुमति बंद है। आप लिखकर भी बता सकते हैं।"
+  },
+  "trust": {
+    "verified": "Verified नियोक्ता (जाँचा हुआ)",
+    "verifiedShort": "Verified",
+    "notVerified": "अभी जाँचा नहीं गया",
+    "notVerifiedShort": "बिना जाँच",
+    "verifiedExplain": "KAABIL के एक अधिकृत एडमिन ने इस मालिक की जाँच की है और यह नौकरी मंज़ूर की है।",
+    "notVerifiedExplain": "इस नौकरी की पूरी जाँच अभी नहीं हुई है। सावधान रहें। नौकरी पाने के लिए कभी पैसे न दें।",
+    "noGuarantee": "KAABIL काम का रास्ता खोजने में मदद करता है। यह नौकरी की गारंटी नहीं देता।",
+    "neverPay": "KAABIL से नौकरी पाने के लिए किसी को भी पैसे न दें।",
+    "indicatorsNote": "ये आसान गतिविधियों से मिले अंदाज़े हैं, कोई वैज्ञानिक माप नहीं।"
+  },
+  "interests": {
+    "cooking": "खाना बनाना",
+    "sewing": "सिलाई",
+    "repairing": "मरम्मत",
+    "farming": "खेती / बागवानी",
+    "craft": "कला / हस्तशिल्प",
+    "cleaning": "सफ़ाई / सामान सजाना",
+    "tools": "औज़ारों से काम",
+    "selling": "सामान बेचना",
+    "helping": "लोगों की मदद",
+    "packing": "पैकिंग / छँटाई",
+    "other": "कुछ और"
+  },
+  "skills": {
+    "cooking": "खाना बनाना",
+    "cleaning": "सफ़ाई",
+    "sewing": "सिलाई और दर्ज़ी का काम",
+    "repair": "छोटी-मोटी मरम्मत",
+    "gardening": "बागवानी",
+    "plant_care": "नर्सरी और पौधों की देखभाल",
+    "packing": "पैकिंग",
+    "sales": "सामान बेचना",
+    "digital_basics": "फ़ोन और कंप्यूटर की शुरुआत",
+    "caregiving": "देखभाल का काम",
+    "tools": "औज़ार चलाना",
+    "craft": "कला और हस्तशिल्प",
+    "driving": "ड्राइविंग",
+    "customer_service": "ग्राहकों से बात करना"
+  },
+  "strengths": {
+    "accuracy": "सही-सही काम",
+    "coordination": "हाथ-आँख का अच्छा तालमेल",
+    "communication": "बातचीत",
+    "creativity": "रचनात्मकता",
+    "practical": "हाथ से काम करने में माहिर",
+    "hand_skills": "हुनरमंद हाथ",
+    "organisation": "चीज़ें व्यवस्थित रखना",
+    "attention_to_detail": "बारीकी पर ध्यान",
+    "problem_solving": "मुश्किल का हल निकालना"
+  },
+  "jobCategories": {
+    "kitchen_helper": "रसोई सहायक",
+    "cook": "रसोइया",
+    "housekeeping": "हाउसकीपिंग",
+    "tailoring_assistant": "सिलाई सहायक",
+    "nursery_worker": "नर्सरी कर्मचारी",
+    "packing_helper": "पैकिंग सहायक",
+    "sales_assistant": "सेल्स सहायक",
+    "repair_helper": "मरम्मत सहायक",
+    "farm_worker": "खेत मज़दूर",
+    "caregiver": "देखभाल करने वाले",
+    "craft_artisan": "हस्तशिल्प कारीगर",
+    "data_entry": "डेटा एंट्री"
+  },
+  "jobType": {
+    "full_time": "फुल-टाइम",
+    "part_time": "पार्ट-टाइम"
+  },
+  "hours": {
+    "morning": "सुबह",
+    "day": "दिन",
+    "evening": "शाम",
+    "flexible": "सुविधा अनुसार"
+  },
+  "experience": {
+    "none": "ज़रूरी नहीं",
+    "preferred": "हो तो अच्छा, ज़रूरी नहीं",
+    "required": "ज़रूरी है"
+  },
+  "training": {
+    "provided": "ट्रेनिंग दी जाएगी",
+    "on_job": "काम करते-करते सीखें",
+    "not_provided": "ट्रेनिंग नहीं"
+  },
+  "pay": {
+    "month": "/ महीना",
+    "day": "/ दिन"
+  },
+  "units": {
+    "km": "{n} किमी",
+    "weeks": "{n} हफ़्ते",
+    "free": "मुफ़्त"
+  },
+  "demo": "पायलट · नमूना नौकरियाँ",
+  "loading": "बस एक पल…",
+  "error": "कुछ गड़बड़ हो गई। कृपया फिर से कोशिश करें।",
+  "offline": "आप ऑफ़लाइन हैं। सेव किए गए पाठ अब भी चलेंगे।"
+}

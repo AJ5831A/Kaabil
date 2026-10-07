@@ -1,0 +1,426 @@
+{
+  "skills": {
+    "cooking": {
+      "title": "Basic Cooking",
+      "summary": "Clean, safe and simple cooking skills used in canteens, homes and small hotels.",
+      "lessons": [
+        {
+          "id": "cooking-1",
+          "title": "A clean and safe kitchen",
+          "intro": "Every good kitchen job starts with cleanliness. Employers notice this first.",
+          "steps": [
+            { "text": "Wash your hands with soap for 20 seconds before you touch food, and again after touching raw vegetables, meat, rubbish or your phone." },
+            { "text": "Tie your hair back and keep nails short. Wear a clean apron if one is given." },
+            { "text": "Keep raw food and cooked food apart. Use a separate board or plate for each.", "tip": "Many kitchens use colour: green board for vegetables, red for meat." },
+            { "text": "Wipe the counter with clean water and soap before and after work. Change the cloth often." },
+            { "text": "Keep the gas off when not in use. Turn pot handles inwards so nobody knocks them." }
+          ],
+          "quiz": [
+            { "q": "When should you wash your hands?", "options": ["Only at the start of the day", "Before touching food and after touching raw items or rubbish", "Only when they look dirty"], "answer": 1, "explain": "Germs are invisible. Wash before food work and after anything dirty." },
+            { "q": "Why turn pot handles inwards?", "options": ["It looks neat", "So nobody knocks the hot pot over", "To cook faster"], "answer": 1 }
+          ]
+        },
+        {
+          "id": "cooking-2",
+          "title": "Cutting and preparing vegetables",
+          "intro": "Kitchen helpers spend much of the day preparing vegetables. Speed comes later — first, safety.",
+          "steps": [
+            { "text": "Wash vegetables in clean water. Leafy vegetables need two or three washes." },
+            { "text": "Place the board on a damp cloth so it does not slip." },
+            { "text": "Hold the vegetable with your fingertips curled inwards, like a claw. The knife touches your knuckles, never your fingertips." },
+            { "text": "Cut the vegetable flat side down so it does not roll." },
+            { "text": "Try to cut pieces the same size, so they cook evenly.", "tip": "Ask the cook what size they want: big pieces for sabzi, small for poha or upma." }
+          ],
+          "quiz": [
+            { "q": "How should your holding hand look while cutting?", "options": ["Flat and open", "Fingertips curled like a claw", "Holding the vegetable from the far end"], "answer": 1 },
+            { "q": "Why cut pieces the same size?", "options": ["So they cook evenly", "To save time washing", "It is not important"], "answer": 0 }
+          ],
+          "task": "At home, cut one onion and one potato into even pieces using the claw grip. Go slowly."
+        },
+        {
+          "id": "cooking-3",
+          "title": "Cooking dal and rice for many people",
+          "intro": "Canteens cook large amounts. The method is the same as at home, with care for measuring.",
+          "steps": [
+            { "text": "Measure with the same cup every time. For rice, a common rule is 1 cup rice to 2 cups water." },
+            { "text": "Wash the dal until the water runs mostly clear. Soak for 20–30 minutes if time allows." },
+            { "text": "In a pressure cooker, cook dal with water, turmeric and salt — usually 3–4 whistles, then let the pressure drop by itself." },
+            { "text": "Make the tadka separately: heat oil or ghee, add jeera, then garlic or onion, then add it to the dal." },
+            { "text": "Taste before serving. Keep cooked food covered and hot, or cool it quickly and store it." }
+          ],
+          "quiz": [
+            { "q": "When is it safe to open a pressure cooker?", "options": ["Right after the last whistle", "After the pressure drops by itself", "When the lid is still hissing"], "answer": 1, "explain": "Opening early can cause burns." }
+          ]
+        }
+      ]
+    },
+    "tailoring": {
+      "title": "Tailoring",
+      "summary": "From threading a machine to stitching a straight seam — the base of every tailoring job.",
+      "lessons": [
+        {
+          "id": "tailoring-1",
+          "title": "Know your machine",
+          "intro": "A tailoring unit will first see if you can handle a machine calmly.",
+          "steps": [
+            { "text": "Learn the main parts: hand wheel, needle, presser foot, bobbin, thread guide and pedal." },
+            { "text": "Always turn the hand wheel towards you, never away." },
+            { "text": "Thread the machine from the spool, through each guide, down to the needle — front to back." },
+            { "text": "Wind the bobbin and place it so the thread pulls out in the right direction." },
+            { "text": "Lower the presser foot before you start stitching, and keep fingers away from the needle.", "tip": "Practise on paper without thread to learn to sew straight lines." }
+          ],
+          "quiz": [
+            { "q": "Which way should the hand wheel turn?", "options": ["Towards you", "Away from you", "Either way"], "answer": 0 },
+            { "q": "What must you do before stitching?", "options": ["Raise the presser foot", "Lower the presser foot", "Remove the bobbin"], "answer": 1 }
+          ]
+        },
+        {
+          "id": "tailoring-2",
+          "title": "Measuring correctly",
+          "intro": "Good measurement saves cloth and makes customers come back.",
+          "steps": [
+            { "text": "Use a soft measuring tape. Keep it flat, not twisted, and not too tight." },
+            { "text": "Write each measurement immediately with the customer's name." },
+            { "text": "Common measurements: chest, waist, hip, shoulder, sleeve length and full length." },
+            { "text": "Measure twice. If the two numbers differ, measure a third time." },
+            { "text": "Add seam allowance (usually 1–2 cm) when you cut the cloth, not when you measure." }
+          ],
+          "quiz": [
+            { "q": "When do you add seam allowance?", "options": ["While measuring the body", "While cutting the cloth", "Never"], "answer": 1 }
+          ],
+          "task": "Measure the length and width of a pillow cover at home twice, and write both numbers."
+        },
+        {
+          "id": "tailoring-3",
+          "title": "Straight seams, hems and buttons",
+          "intro": "Most assistant work is seams, hems and buttons. Neatness matters more than speed.",
+          "steps": [
+            { "text": "Pin or tack two pieces of cloth together with the good sides facing each other." },
+            { "text": "Keep the cloth edge in line with the guide mark on the machine plate and sew slowly." },
+            { "text": "At the start and end, sew back 3–4 stitches to lock the seam." },
+            { "text": "For a hem, fold the edge twice, press it flat, then stitch close to the fold." },
+            { "text": "For a button, mark the spot, sew through the holes 6–8 times, then wind thread under the button to make a small stem." }
+          ],
+          "quiz": [
+            { "q": "How do you stop a seam from opening?", "options": ["Sew a few stitches backward at start and end", "Use thicker thread", "Cut the thread long"], "answer": 0 }
+          ]
+        }
+      ]
+    },
+    "repair": {
+      "title": "Basic Repair",
+      "summary": "Safe habits and first checks for fans, coolers and small appliances.",
+      "lessons": [
+        {
+          "id": "repair-1",
+          "title": "Safety first, always",
+          "intro": "In repair work, safety is the most important skill. A good mechanic is a careful one.",
+          "steps": [
+            { "text": "Switch off and unplug the appliance before opening it. Switching off is not enough — pull out the plug." },
+            { "text": "Never touch wires with wet hands or while standing on a wet floor. Wear rubber slippers." },
+            { "text": "Use tools with insulated (rubber or plastic) handles." },
+            { "text": "Capacitors in fans and coolers can hold charge. Let an experienced person show you how to handle them." },
+            { "text": "If you are not sure, stop and ask. It is never wrong to ask." }
+          ],
+          "quiz": [
+            { "q": "Before opening a fan, you should…", "options": ["Switch it off", "Switch off and pull out the plug", "Just be careful"], "answer": 1 },
+            { "q": "If you are unsure about a wire, you should…", "options": ["Try anyway", "Stop and ask", "Cut it"], "answer": 1 }
+          ]
+        },
+        {
+          "id": "repair-2",
+          "title": "Know your tools",
+          "intro": "Using the right tool makes the job faster and keeps parts from breaking.",
+          "steps": [
+            { "text": "Screwdrivers: flat (minus) and star (plus). Choose the size that fits the screw head fully." },
+            { "text": "Pliers grip and bend; cutters cut wire. Do not use pliers as a hammer." },
+            { "text": "A tester screwdriver lights up when a wire is live. Check it on a known live socket first." },
+            { "text": "Keep screws in a small box in the order you removed them." },
+            { "text": "Clean and return tools to their place at the end of the day.", "tip": "Taking a photo with a phone before opening helps you put it back right." }
+          ],
+          "quiz": [
+            { "q": "Why keep screws in order?", "options": ["To put the appliance back correctly", "Screws are expensive", "It is not needed"], "answer": 0 }
+          ]
+        },
+        {
+          "id": "repair-3",
+          "title": "When a fan does not run",
+          "intro": "Most problems are simple. Check from the easiest thing to the hardest.",
+          "steps": [
+            { "text": "Is there power? Check the switch, plug and the socket with another device." },
+            { "text": "Does the fan hum but not turn? The capacitor may be weak — this is very common." },
+            { "text": "Does the fan turn slowly? Clean dust from the blades and check the bearings." },
+            { "text": "Is there a burning smell? Stop. The winding may be damaged — tell the senior mechanic." },
+            { "text": "Write down what you checked and what you found. Customers trust a clear explanation." }
+          ],
+          "quiz": [
+            { "q": "A fan hums but does not turn. A common cause is…", "options": ["Weak capacitor", "Dirty blades", "Too much power"], "answer": 0 }
+          ],
+          "task": "Look at a fan at home (switched off). Find the blades, the motor and the regulator."
+        }
+      ]
+    },
+    "gardening": {
+      "title": "Gardening",
+      "summary": "Soil, seeds and watering — the daily work of gardens, farms and nurseries.",
+      "lessons": [
+        {
+          "id": "gardening-1",
+          "title": "Understanding soil",
+          "intro": "Healthy plants grow in healthy soil.",
+          "steps": [
+            { "text": "Good soil is loose and crumbly, not hard like stone or sticky like clay." },
+            { "text": "Mix compost or old cow-dung manure into the soil to feed it." },
+            { "text": "Break big lumps and remove stones and plastic." },
+            { "text": "Soil should hold some water but not stay muddy. Puddles mean poor drainage." },
+            { "text": "Wear gloves or wash hands well after working with manure." }
+          ],
+          "quiz": [
+            { "q": "What improves soil?", "options": ["Plastic", "Compost or old manure", "Salt"], "answer": 1 }
+          ]
+        },
+        {
+          "id": "gardening-2",
+          "title": "Sowing seeds",
+          "intro": "Each seed needs the right depth and space.",
+          "steps": [
+            { "text": "A simple rule: sow a seed about two times as deep as its size." },
+            { "text": "Leave space between seeds so the plants do not fight for light." },
+            { "text": "Cover lightly with soil and press gently." },
+            { "text": "Water with a fine spray so seeds are not washed away." },
+            { "text": "Mark the row with the name and date of sowing." }
+          ],
+          "quiz": [
+            { "q": "How deep should a seed go?", "options": ["About twice its size", "As deep as possible", "On top of the soil"], "answer": 0 }
+          ],
+          "task": "Sow a few methi or dhania seeds in a small pot and note the date."
+        },
+        {
+          "id": "gardening-3",
+          "title": "Watering the right way",
+          "intro": "More plants die from wrong watering than from anything else.",
+          "steps": [
+            { "text": "Water early morning or evening, not in the hot afternoon." },
+            { "text": "Water the roots, not the leaves." },
+            { "text": "Check the soil with a finger: if the top 2–3 cm are dry, it is time to water." },
+            { "text": "Too much water makes leaves turn yellow and roots rot." },
+            { "text": "In summer, a layer of dry leaves (mulch) keeps the soil moist longer." }
+          ],
+          "quiz": [
+            { "q": "Best time to water?", "options": ["Hot afternoon", "Early morning or evening", "Midnight only"], "answer": 1 },
+            { "q": "Yellow leaves and soft roots often mean…", "options": ["Too much water", "Too little sun", "Too much soil"], "answer": 0 }
+          ]
+        }
+      ]
+    },
+    "digital": {
+      "title": "Digital Basics",
+      "summary": "Use a phone with confidence and stay safe from fraud.",
+      "lessons": [
+        {
+          "id": "digital-1",
+          "title": "Getting comfortable with a phone",
+          "intro": "You do not need to know everything. A few basics take you far.",
+          "steps": [
+            { "text": "Tap once to open. Press and hold for more options. Swipe to move between screens." },
+            { "text": "The home button or bottom line brings you back to the main screen." },
+            { "text": "Use the microphone button on the keyboard to speak instead of typing." },
+            { "text": "Save important numbers with clear names, like 'Kendra Didi' or 'Factory Office'." },
+            { "text": "Keep the phone charged and the screen locked with a PIN only you know." }
+          ],
+          "quiz": [
+            { "q": "To speak instead of type, you press…", "options": ["The microphone on the keyboard", "The power button", "The camera"], "answer": 0 }
+          ]
+        },
+        {
+          "id": "digital-2",
+          "title": "UPI and money safety",
+          "intro": "Digital payments are useful — and fraudsters know it. Learn the simple rules.",
+          "steps": [
+            { "text": "You need your UPI PIN only to SEND money, never to receive it." },
+            { "text": "Never share your PIN or OTP with anyone — not even someone who says they are from the bank." },
+            { "text": "Before paying, check the name that appears on the screen." },
+            { "text": "A real employer never asks you to pay money to get a job.", "tip": "If anyone asks for a 'registration fee' for a job, report it on KAABIL." },
+            { "text": "If you are cheated, call 1930 (cyber crime helpline) as soon as possible." }
+          ],
+          "quiz": [
+            { "q": "To RECEIVE money, do you need your PIN?", "options": ["Yes", "No"], "answer": 1 },
+            { "q": "Someone asks ₹500 to give you a job. You should…", "options": ["Pay quickly", "Refuse and report it", "Pay half"], "answer": 1 }
+          ]
+        },
+        {
+          "id": "digital-3",
+          "title": "Filling a simple online form",
+          "intro": "Many services now ask for an online form. Take it slowly.",
+          "steps": [
+            { "text": "Read each box label before typing. A star (*) usually means the box is required." },
+            { "text": "Type your name exactly as it is on your ID." },
+            { "text": "Mobile number: 10 digits, without 0 or +91 unless asked." },
+            { "text": "Check everything once before pressing Submit." },
+            { "text": "Take a screenshot of the confirmation page or write down the reference number." }
+          ],
+          "quiz": [
+            { "q": "After submitting a form, you should…", "options": ["Close it immediately", "Save the reference number", "Submit again"], "answer": 1 }
+          ],
+          "task": "Ask a centre helper to show you a practice form and fill it with your details."
+        }
+      ]
+    },
+    "nursery": {
+      "title": "Nursery & Plant Care",
+      "summary": "Potting, cuttings and daily care — the work of plant nurseries.",
+      "lessons": [
+        {
+          "id": "nursery-1",
+          "title": "Filling pots and bags",
+          "intro": "Nurseries fill hundreds of pots each day. Doing it right makes plants strong.",
+          "steps": [
+            { "text": "Common potting mix: soil, sand and compost in roughly equal parts." },
+            { "text": "Make sure the pot or grow-bag has holes at the bottom for water to drain." },
+            { "text": "Fill up to about two fingers below the rim, so water does not overflow." },
+            { "text": "Tap the pot gently to settle the mix. Do not press it hard." },
+            { "text": "Line pots in straight rows. It makes watering and counting easy." }
+          ],
+          "quiz": [
+            { "q": "Why do pots need holes at the bottom?", "options": ["To drain extra water", "To save soil", "For decoration"], "answer": 0 }
+          ]
+        },
+        {
+          "id": "nursery-2",
+          "title": "Growing from cuttings",
+          "intro": "Many plants like rose, money plant and hibiscus grow from a piece of stem.",
+          "steps": [
+            { "text": "Choose a healthy stem, about the length of your hand." },
+            { "text": "Cut just below a node (the bump where a leaf grows) with a clean, sharp blade." },
+            { "text": "Remove the lower leaves and keep only 2–3 at the top." },
+            { "text": "Plant the cutting in moist mix and keep it in shade." },
+            { "text": "Keep the soil moist, not wet. New roots usually come in 2–4 weeks." }
+          ],
+          "quiz": [
+            { "q": "Where do you cut the stem?", "options": ["Just below a node", "In the middle of a leaf", "Anywhere"], "answer": 0 }
+          ]
+        },
+        {
+          "id": "nursery-3",
+          "title": "Spotting plant problems",
+          "intro": "A nursery worker's eyes protect the whole nursery.",
+          "steps": [
+            { "text": "Check leaves on both sides every morning." },
+            { "text": "White powder, sticky leaves or tiny insects mean pests. Separate that plant." },
+            { "text": "Brown, dry edges can mean too little water or too much sun." },
+            { "text": "Tell the supervisor before spraying anything. Some sprays are harmful." },
+            { "text": "Always wash hands after handling sprays or fertiliser." }
+          ],
+          "quiz": [
+            { "q": "You see insects on a plant. First you…", "options": ["Separate the plant and tell the supervisor", "Spray anything you find", "Ignore it"], "answer": 0 }
+          ],
+          "task": "Look closely at five plants and note anything unusual on the leaves."
+        }
+      ]
+    },
+    "packaging": {
+      "title": "Packaging",
+      "summary": "Weighing, packing and labelling — accurate, steady work in demand everywhere.",
+      "lessons": [
+        {
+          "id": "packaging-1",
+          "title": "Weighing accurately",
+          "intro": "Every packet must have the right weight. Customers and inspectors check this.",
+          "steps": [
+            { "text": "Put the empty packet on the scale and press 'Tare' or zero." },
+            { "text": "Fill until the scale shows the target weight, for example 500 g." },
+            { "text": "If it goes over, remove a little. A few grams over is fine; under is not." },
+            { "text": "Keep the scale clean and on a flat table." },
+            { "text": "Every hour, check the scale with a known weight if one is available." }
+          ],
+          "quiz": [
+            { "q": "What does 'Tare' do?", "options": ["Sets the scale to zero with the packet on it", "Adds weight", "Turns it off"], "answer": 0 }
+          ]
+        },
+        {
+          "id": "packaging-2",
+          "title": "Sealing and labelling",
+          "intro": "A neat seal and a correct label make a product ready to sell.",
+          "steps": [
+            { "text": "Remove extra air from the packet before sealing." },
+            { "text": "Seal in one straight line. Check that there are no gaps." },
+            { "text": "Stick the label straight, in the same place on every packet." },
+            { "text": "Check the date, weight and batch number on the label." },
+            { "text": "Put rejected packets in a separate box. Never mix them with good ones." }
+          ],
+          "quiz": [
+            { "q": "A packet has a gap in the seal. You…", "options": ["Put it in the reject box", "Send it anyway", "Hide it"], "answer": 0 }
+          ]
+        },
+        {
+          "id": "packaging-3",
+          "title": "Packing boxes for dispatch",
+          "intro": "Good packing means goods arrive safely.",
+          "steps": [
+            { "text": "Heavy items go at the bottom, light items on top." },
+            { "text": "Fill empty spaces with paper so nothing moves." },
+            { "text": "Count the items and write the number on the box." },
+            { "text": "Tape the box in an 'H' shape across the top and bottom." },
+            { "text": "Lift with your knees bent and back straight, not by bending your back." }
+          ],
+          "quiz": [
+            { "q": "How should you lift a heavy box?", "options": ["Bend your back", "Bend your knees, back straight", "Pull it quickly"], "answer": 1 }
+          ],
+          "task": "Pack a few household items in a box so they do not move when shaken."
+        }
+      ]
+    },
+    "sales": {
+      "title": "Basic Sales",
+      "summary": "Greeting customers, helping them choose and handling money correctly.",
+      "lessons": [
+        {
+          "id": "sales-1",
+          "title": "Welcoming a customer",
+          "intro": "People buy from shops where they feel respected.",
+          "steps": [
+            { "text": "Greet every customer with a smile: 'Namaste, how can I help you?'" },
+            { "text": "Listen fully before you answer. Do not interrupt." },
+            { "text": "If you do not know something, say 'Let me check for you' — never guess." },
+            { "text": "Speak clearly and politely, even when the shop is busy." },
+            { "text": "Thank the customer when they leave, whether they buy or not." }
+          ],
+          "quiz": [
+            { "q": "A customer asks something you don't know. You say…", "options": ["Make up an answer", "'Let me check for you'", "'I don't know' and walk away"], "answer": 1 }
+          ]
+        },
+        {
+          "id": "sales-2",
+          "title": "Helping customers choose",
+          "intro": "Good sales is helping, not pushing.",
+          "steps": [
+            { "text": "Ask simple questions: 'Which size?', 'For whom?', 'What budget?'" },
+            { "text": "Show two or three options, not ten." },
+            { "text": "Tell the honest benefits and the price clearly." },
+            { "text": "If something is out of stock, suggest a similar item or when it will come." },
+            { "text": "Keep shelves neat so customers can find things themselves." }
+          ],
+          "quiz": [
+            { "q": "How many options should you usually show?", "options": ["Two or three", "As many as possible", "Only the most expensive"], "answer": 0 }
+          ]
+        },
+        {
+          "id": "sales-3",
+          "title": "Handling money and bills",
+          "intro": "Being careful with money builds trust with your employer.",
+          "steps": [
+            { "text": "Say the total amount out loud to the customer." },
+            { "text": "Count the money received in front of the customer." },
+            { "text": "Count the change twice before giving it." },
+            { "text": "For UPI, wait until you see or hear the payment confirmation." },
+            { "text": "At the end of the day, match the cash with the bills." }
+          ],
+          "quiz": [
+            { "q": "For a UPI payment, when is it complete?", "options": ["When the customer shows the phone screen with a success message or the shop speaker confirms it", "When they say 'sent'", "Right away"], "answer": 0 }
+          ],
+          "task": "Practise giving change: total ₹137, customer gives ₹200. How much change? (₹63)"
+        }
+      ]
+    }
+  }
+}

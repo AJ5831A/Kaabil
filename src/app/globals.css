@@ -1,26 +1,296 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* ------------------------------------------------------------------
+   KAABIL design tokens
+   Deep navy · warm gold · cream. Themes switch on <html data-theme>.
+   ------------------------------------------------------------------ */
+:root,
+:root[data-theme="dark"] {
+  --bg: #060b1a;
+  --bg-2: #0a1330;
+  --bg-3: #101b3f;
+  --fg: #f3ede1;
+  --fg-muted: rgb(243 237 225 / 0.66);
+  --fg-subtle: rgb(243 237 225 / 0.44);
+  --line: rgb(227 200 142 / 0.13);
+  --line-strong: rgb(227 200 142 / 0.34);
+  --gold: #d6b26e;
+  --gold-2: #b48c48;
+  --gold-ink: #1a1305;
+  --glass: rgb(255 255 255 / 0.035);
+  --glass-2: rgb(255 255 255 / 0.065);
+  --glass-solid: #0d1735;
+  --glass-hi: rgb(255 255 255 / 0.07);
+  --shadow: 0 1px 1px rgb(0 0 0 / 0.25), 0 18px 48px -18px rgb(0 0 0 / 0.6);
+  --ok: #86d0b0;
+  --ok-bg: rgb(134 208 176 / 0.12);
+  --warn: #e9be72;
+  --warn-bg: rgb(233 190 114 / 0.12);
+  --danger: #ee9282;
+  --danger-bg: rgb(238 146 130 / 0.12);
+  --blob-1: rgb(40 70 160 / 0.55);
+  --blob-2: rgb(214 178 110 / 0.16);
+  --blob-3: rgb(22 40 100 / 0.7);
+  color-scheme: dark;
+}
+
+:root[data-theme="light"] {
+  --bg: #f4eee2;
+  --bg-2: #ece4d4;
+  --bg-3: #e3d9c5;
+  --fg: #0c1733;
+  --fg-muted: rgb(12 23 51 / 0.7);
+  --fg-subtle: rgb(12 23 51 / 0.5);
+  --line: rgb(12 23 51 / 0.1);
+  --line-strong: rgb(154 115 48 / 0.45);
+  --gold: #8f6a2a;
+  --gold-2: #a57c36;
+  --gold-ink: #fffaf0;
+  --glass: rgb(255 255 255 / 0.5);
+  --glass-2: rgb(255 255 255 / 0.72);
+  --glass-solid: #fbf8f1;
+  --glass-hi: rgb(255 255 255 / 0.9);
+  --shadow: 0 1px 1px rgb(12 23 51 / 0.05), 0 18px 40px -20px rgb(12 23 51 / 0.25);
+  --ok: #1d7451;
+  --ok-bg: rgb(29 116 81 / 0.1);
+  --warn: #8a5a00;
+  --warn-bg: rgb(176 120 20 / 0.12);
+  --danger: #a83c28;
+  --danger-bg: rgb(168 60 40 / 0.1);
+  --blob-1: rgb(214 178 110 / 0.35);
+  --blob-2: rgb(120 150 220 / 0.22);
+  --blob-3: rgb(255 255 255 / 0.8);
+  color-scheme: light;
+}
+
+/* Simple / low-literacy mode: higher contrast, larger everything. */
+:root[data-simple="1"] {
+  --fg-muted: rgb(243 237 225 / 0.86);
+  --line: rgb(227 200 142 / 0.3);
+  font-size: 112.5%;
+}
+:root[data-simple="1"][data-theme="light"] {
+  --fg-muted: rgb(12 23 51 / 0.9);
+  --line: rgb(12 23 51 / 0.25);
+}
+:root[data-kiosk="1"] {
+  font-size: 118%;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-bg: var(--bg);
+  --color-bg-2: var(--bg-2);
+  --color-bg-3: var(--bg-3);
+  --color-fg: var(--fg);
+  --color-muted: var(--fg-muted);
+  --color-subtle: var(--fg-subtle);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-gold: var(--gold);
+  --color-gold-2: var(--gold-2);
+  --color-gold-ink: var(--gold-ink);
+  --color-glass: var(--glass);
+  --color-glass-2: var(--glass-2);
+  --color-ok: var(--ok);
+  --color-ok-bg: var(--ok-bg);
+  --color-warn: var(--warn);
+  --color-warn-bg: var(--warn-bg);
+  --color-danger: var(--danger);
+  --color-danger-bg: var(--danger-bg);
+
+  --font-sans: var(--font-hanken), var(--font-noto-deva), var(--font-noto-beng), var(--font-noto-taml),
+    var(--font-noto-telu), var(--font-noto-knda), var(--font-noto-gujr), var(--font-noto-guru), ui-sans-serif,
+    system-ui, sans-serif;
+  --font-display: var(--font-instrument), var(--font-noto-serif-deva), var(--font-noto-beng), var(--font-noto-taml),
+    var(--font-noto-telu), var(--font-noto-knda), var(--font-noto-gujr), var(--font-noto-guru), ui-serif, Georgia,
+    serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, monospace;
+
+  --radius-tile: 1.375rem;
+  --ease-spring: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* ------------------------------------------------------------------ base */
+html {
+  background: var(--bg);
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  background: transparent;
+  color: var(--fg);
+  font-family: var(--font-sans);
+  font-feature-settings: "ss01", "cv11";
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+::selection {
+  background: color-mix(in oklab, var(--gold) 35%, transparent);
+}
+:focus-visible:not([tabindex="-1"]) {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+  border-radius: 10px;
+}
+
+@layer components {
+/* Display type: serif with italic emphasis. `*word*` in copy renders as <em>. */
+.font-display {
+  font-family: var(--font-display);
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+.font-display em,
+.em-gold {
+  font-style: italic;
+  color: var(--gold);
+}
+.eyebrow {
+  font-size: 0.6875rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--fg-subtle);
+  font-weight: 600;
+}
+.hairline {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--line-strong), transparent);
+}
+
+/* ------------------------------------------------------------------ glass */
+.glass {
+  background: var(--glass);
+  border: 1px solid var(--line);
+  box-shadow: inset 0 1px 0 var(--glass-hi), var(--shadow);
+  -webkit-backdrop-filter: blur(20px) saturate(140%);
+  backdrop-filter: blur(20px) saturate(140%);
+}
+.glass-strong {
+  background: var(--glass-2);
+  border: 1px solid var(--line);
+  box-shadow: inset 0 1px 0 var(--glass-hi), var(--shadow);
+  -webkit-backdrop-filter: blur(28px) saturate(150%);
+  backdrop-filter: blur(28px) saturate(150%);
+}
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .glass,
+  .glass-strong {
+    background: var(--glass-solid);
   }
 }
+/* Gold edge that catches light from the top-left. */
+.gold-edge {
+  position: relative;
+}
+.gold-edge::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(140deg, var(--line-strong), transparent 38%, transparent 70%, var(--line));
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ------------------------------------------------------------------ backdrop */
+.mesh {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  background:
+    radial-gradient(120% 80% at 50% -10%, var(--bg-3), transparent 60%),
+    linear-gradient(180deg, var(--bg-2), var(--bg) 55%);
+}
+.mesh .blob {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(80px);
+  will-change: transform;
+  animation: drift 48s var(--ease-spring) infinite alternate;
+}
+.mesh .grain {
+  position: absolute;
+  inset: -50%;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  mix-blend-mode: overlay;
+}
+@keyframes drift {
+  0% { transform: translate3d(0, 0, 0) scale(1); }
+  50% { transform: translate3d(4%, -3%, 0) scale(1.08); }
+  100% { transform: translate3d(-3%, 4%, 0) scale(0.96); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+@layer components {
+.shimmer {
+  background: linear-gradient(90deg, transparent, color-mix(in oklab, var(--gold) 22%, transparent), transparent);
+  background-size: 200% 100%;
+  animation: shimmer 1.8s linear infinite;
+}
+}
+
+/* ------------------------------------------------------------------ motion */
+:root[data-motion="off"] *,
+:root[data-motion="off"] *::before,
+:root[data-motion="off"] *::after {
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
+}
+@media (prefers-reduced-motion: reduce) {
+  .mesh .blob { animation: none; }
+}
+
+/* ------------------------------------------------------------------ simple mode */
+:root[data-simple="1"] [data-secondary] {
+  display: none !important;
+}
+
+/* ------------------------------------------------------------------ scrollbars */
+.thin-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: var(--line-strong) transparent;
+}
+
+/* ------------------------------------------------------------------ print
+   Only the element marked .print-root is printed. Paper size is set per slip
+   via the [data-paper] attribute (A5, A6, 58mm, 80mm thermal). */
+@media print {
+  html, body { background: #fff !important; color: #000 !important; }
+  body * { visibility: hidden !important; }
+  .print-root, .print-root * { visibility: visible !important; }
+  .print-root {
+    position: absolute !important;
+    left: 0; top: 0;
+    margin: 0 !important;
+    box-shadow: none !important;
+  }
+  .no-print { display: none !important; }
+  .mesh { display: none !important; }
+}
+
+/* ------------------------------------------------------------------ Indic scripts
+   Letter-spacing breaks conjuncts and synthetic italics collide in Indic scripts:
+   emphasis falls back to colour only, and drop tracking on labels (Latin wordmarks keep theirs). */
+html:not([lang="en"]) .eyebrow,
+html:not([lang="en"]) [class*="tracking-[0.1"]:not(.font-display):not(.font-mono),
+html:not([lang="en"]) [class*="tracking-[0.2"]:not(.font-display):not(.font-mono),
+html:not([lang="en"]) [class*="tracking-[0.3"]:not(.font-display):not(.font-mono),
+html:not([lang="en"]) [class*="tracking-wide"]:not(.font-display):not(.font-mono) {
+  letter-spacing: 0.01em;
+}
+/* Real italics for Latin (Instrument Serif has them); no faux-oblique for scripts without italics. */
+em,
+.em-gold,
+.italic {
+  font-synthesis: none;
 }
